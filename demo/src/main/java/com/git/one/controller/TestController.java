@@ -8,6 +8,6 @@ public class TestController {
 
 	@GetMapping("/check")
 	public String doCheck() {
-		return "working!!!";
+		return "It's working";
 	}
 }
